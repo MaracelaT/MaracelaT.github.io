@@ -4,11 +4,11 @@
  * L&T quote generator
  */
 
-var things = ["Music", "Art", "Dance", "Theater", "Math", "Architecture"];
-var programmers = ["musician", "artist", "choreographer", "director", "mathematician", "architect"]
-var castles = ["museums", "bridges", "cities"]
-var exertions = ["effort", "strain", "struggle", "toil", "endeavor", "hard work", "labor"];
-var airs = ["sky", "atmosphere", "heavens", "ether", "wind"];
+var things = ["Sport", "Chemistry", "Biology", "French", "Jazz", "Antman"];
+var programmers = ["Olympian", "Chemist", "Biologist", "Dude from Paris", "Guy from down the hall", "taller person"]
+var castles = ["Rio", "The lab down the street", "New York baby"]
+var exertions = ["I tried", "sleep", "way to hard", "the struggle is real", "coding is way to hard", "englsih", "Paris?"];
+var airs = ["earth", "wind", "fire", "peace", "earth"];
 
 function choosei(lst){
     var i = Math.floor(Math.random() * lst.length);
@@ -35,7 +35,7 @@ q.innerHTML =
     "\"The " + programmer +
     ", like the poet, works only slightly removed from pure thought-stuff. He builds his " +
     castles + " in the " + air + ", from " + air + ", creating by " + exertion + " of the imagination.\"" +
-    "\u2014" +  "Fred Brooks, " + programmer;
+    "\u2014" +  "Homie G, " + programmer;
 
 q.innerHTML += "<br><br><br>";
 
