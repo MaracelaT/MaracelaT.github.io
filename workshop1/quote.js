@@ -8,7 +8,7 @@ var things = ["Sport", "Chemistry", "Biology", "French", "Jazz", "Antman"];
 var programmers = ["Olympian", "Chemist", "Biologist", "Dude from Paris", "Guy from down the hall", "taller person"]
 var castles = ["Rio", "The lab down the street", "New York baby"]
 var exertions = ["I tried", "sleep", "way to hard", "the struggle is real", "coding is way to hard", "englsih", "Paris?"];
-var airs = ["earth", "wind", "fire", "peace", "earth"];
+var airs = ["earth", "wind", "fire", "peace", "life in general"];
 
 function choosei(lst){
     var i = Math.floor(Math.random() * lst.length);
